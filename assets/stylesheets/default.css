@@ -1,0 +1,112 @@
+/*ベースカラー*/
+/*#A6D8DF*/
+/*#EE5840*/
+
+
+/* universal */
+
+/*
+body {
+  padding-top: 0px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+*/
+
+/* typography */
+/*
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #777;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+*/
+
+/* header */
+/*
+header {
+  background-color: #A6D8DF;
+}
+
+header li {
+  list-style: none;
+  float: right;
+  padding: 20px;
+  font-size: 17px;
+}
+
+header li a {
+  color: #606060;  
+}
+
+.navbar {
+  height: 70px;
+  text-align: center;
+  line-height: 35px;
+}
+*/
+
+/* footer */
+/*
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+*/
