@@ -2,14 +2,17 @@
 /*#A6D8DF*/
 /*#EE5840*/
 
+/*またはこっち*/
+/*#67C7C5*/
+/*#C71330*/
 
 /* universal */
-
-/*
 body {
-  padding-top: 0px;
+/*  height: 1000px;*/
+  background-color: #F5F2EB;
 }
 
+/*
 section {
   overflow: auto;
 }
@@ -28,18 +31,17 @@ textarea {
 */
 
 /* typography */
-/*
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
 h1 {
-  font-size: 3em;
-  letter-spacing: -2px;
-  margin-bottom: 30px;
+  color: #666;
+  font-size: 5em;
   text-align: center;
 }
 
+/*
 h2 {
   font-size: 1.2em;
   letter-spacing: -1px;
@@ -48,19 +50,86 @@ h2 {
   font-weight: normal;
   color: #777;
 }
-
-p {
-  font-size: 1.1em;
-  line-height: 1.7em;
-}
 */
 
-/* header */
-/*
-header {
-  background-color: #A6D8DF;
+p {
+  font-size: 1.3em;
+  line-height: 1.7em;
+  margin-top: 0;
 }
 
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+table{
+  border-collapse:collapse;
+  margin:0 auto;
+  font-size: 1.3em;
+}
+td,th{
+  padding:10px;
+  border:solid 1px #666;
+}
+th{
+  color:#fff;
+  background:#A6D8DF;
+}
+table tr:nth-child(odd){
+  background:#ffffff;
+}
+table tr:nth-child(even){
+	background: #F0F0F0;
+}
+
+/* header */
+header {
+  height: 400px;
+  background-image: url('../images/glasses.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 25%;
+}
+
+.logo-title {
+  height: 400px;
+  width: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 6.5vw;
+  text-align: center;
+  line-height: 0.8em;
+}
+
+.liner-blue {
+  background: linear-gradient(transparent 90%, #A6D8DF 90%);  
+}
+.liner-red {
+  background: linear-gradient(transparent 90%, #EE5840 90%);  
+}
+
+.hr01 {
+	border-width: 5px 0 0 0;
+/*	border-style: dashed;*/
+	border-color: #A6D8DF;
+  margin: 10px;
+}
+
+.hr02 {
+	border-width: 2px 0 0 0;
+/*	border-style: dashed;*/
+	border-color: #EE5840;
+  margin: 10px;
+}
+
+.hr03 {
+	border-width: 5px 0 0 0;
+	border-style: double;
+	border-color: #A6D8DF;
+}
+
+/*
 header li {
   list-style: none;
   float: right;
@@ -78,6 +147,29 @@ header li a {
   line-height: 35px;
 }
 */
+
+/* main */
+.section{
+  padding-top: 40px;
+}
+
+.text{
+  width: 80%;
+}
+
+.inner{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+  padding-left: 80px;
+}
+
+.img-icon {
+  padding: 20px;
+  border-radius: 50%;
+  width: 80%;
+}
 
 /* footer */
 /*
