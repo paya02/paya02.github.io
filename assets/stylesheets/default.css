@@ -41,21 +41,18 @@ h1 {
   text-align: center;
 }
 
-/*
-h2 {
-  font-size: 1.2em;
-  letter-spacing: -1px;
-  margin-bottom: 30px;
+h4 {
+  color: #666;
+  font-size: 1.3em;
   text-align: center;
-  font-weight: normal;
-  color: #777;
 }
-*/
+
 
 p {
   font-size: 1.3em;
   line-height: 1.7em;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 img {
@@ -107,6 +104,8 @@ header {
 }
 .liner-red {
   background: linear-gradient(transparent 90%, #EE5840 90%);  
+/*  padding-top: 50px;*/
+/*  padding-bottom: -200px;*/
 }
 
 .hr01 {
@@ -129,39 +128,26 @@ header {
 	border-color: #A6D8DF;
 }
 
-/*
-header li {
-  list-style: none;
-  float: right;
-  padding: 20px;
-  font-size: 17px;
-}
-
-header li a {
-  color: #606060;  
-}
-
-.navbar {
-  height: 70px;
-  text-align: center;
-  line-height: 35px;
-}
-*/
 
 /* main */
 .section{
-  padding-top: 40px;
+  width: 100vw;
+  height: 80vh;
+  padding-top: 30px;
 }
 
 .text{
   width: 80%;
 }
 
-.inner{
+.inner {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
-  text-align: center;
+  text-align: center;  
+}
+
+#Profile .inner{
   padding-left: 80px;
 }
 
@@ -171,34 +157,51 @@ header li a {
   width: 80%;
 }
 
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+.card-image {
+  display: block;
+  margin-bottom: 8px;
+  height: 245px;
+  width: 100%;
+}
+
+.card-caption {
+  text-align: center;
+}
+
+.card-caption-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-caption-info {
+  font-size: 12px;
+}
+
+.card-caption-url {
+  font-size: 12px;
+}
+
 /* footer */
-/*
 footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: #777;
+  color: #F5F2EB;
+  background-color: #666;
 }
 
-footer a {
-  color: #555;
+.copyright{
+  text-align: center;
 }
-
-footer a:hover {
-  color: #222;
-}
-
-footer small {
-  float: left;
-}
-
-footer ul {
-  float: right;
-  list-style: none;
-}
-
-footer ul li {
-  float: left;
-  margin-left: 15px;
-}
-*/
