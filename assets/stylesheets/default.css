@@ -152,10 +152,6 @@ header {
   text-align: center;  
 }
 
-#Profile .inner{
-/*  padding-left: 80px;*/
-}
-
 .img-icon {
   padding: 20px;
   border-radius: 50%;
@@ -200,6 +196,13 @@ header {
 
 .card-caption-url {
   font-size: 12px;
+}
+
+.contact-icon {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 50%;
 }
 
 /* footer */
