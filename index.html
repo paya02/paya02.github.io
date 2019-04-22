@@ -11,6 +11,7 @@
   <meta property="og:image" content="assets/images/ogp.png">
   <meta name="description" content="ぱやぱやのポートフォリオサイトです。" />
   <title>paya02 portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
@@ -22,33 +23,43 @@
 <body>
   <div id="wrapper">
     <header id="header">
+      <section class="section" id="top">
+        <div id="center">
+          <h1 class="white">Paya02's Portfolio</h1>
+          <h3 class="white">Web Engineer</h3>
+        </div>
+      </section>
+<!--
       <div class="uk-container uk-container-center">
         <div class="uk-grid">
           <div class="uk-width-1-3">
-            <div class="logo-title">Paya02</div>
+            <div class="logo-title"><p class="child">Paya02</p></div>
           </div>
           <div class="uk-width-1-3">
+            <div class="header-pic">
+              <img src="assets/images/glasses.png">
+            </div>
           </div>
           <div class="uk-width-1-3">
-            <div class="logo-title">Web<br>Engineer</div>
+            <div class="logo-title"><p class="child">Web<br>Engineer</p></div>
           </div>
         </div>
-<!--        <hr class="hr03"/>-->
       </div>
+-->
     </header>
     
     <main id="contents">
       <section class="section" id="Profile">
         <h1>Profile</h1>
-        <div class="uk-container uk-container-center">
+        <div class="uk-container uk-container-center uk-container-large">
           <div class="uk-grid">
-            <div class="uk-width-1-2">
+            <div class="uk-width-1-1 uk-width-1-2@s">
               <div class="inner">
                 <img src="assets/images/paya.jpg" alt="paya02-icon" class="img-icon">
               </div>
             </div>
-            <div class="uk-width-1-2">
-              <div class="text">
+            <div class="uk-width-1-1 uk-width-1-2@s">
+              <div class="">
                 <p>こんにちは！当ポートフォリオサイトをご覧いただきありがとうございます。<br>
                 ここでは私が身につけたスキル・制作物・ブログを紹介しているので、少しでも興味を持っていただけたら嬉しいです。<br>
                 <br>
@@ -64,25 +75,27 @@
       
       <section class="section" id="Skill">
         <h1>Skill</h1>
-        <div class="skillsheet">
-          <table>
-            <tr><th>言語・フレームワーク・ツール</th><th>実装した機能・使用した機能</th></tr>
-            <tr><td>Oracle</td><td>PL/SQLを使った大量データの処理、DDL/DML/DML、SQL*Loader</td></tr>
-            <tr><td>ASP.NET</td><td>サーバサイド言語にVB.net、DBにOracle、JavaScriptによる非同期処理</td></tr>
-            <tr><td>VBA</td><td>業務効率化ツールの開発</td></tr>
-            <tr><td>Ruby on Rails</td><td>S3を使った画像投稿サービス(インフラはheroku)。現在習得中</td></tr>
-            <tr><td>WordPress</td><td>個人ブログで少しカスタマイズした程度</td></tr>
-            <tr><td>TortoiseSVN</td><td>コマンドラインツールを使った環境構築</td></tr>
-            <tr><td>Git</td><td>習得中</td></tr>
-          </table>
+        <div class="uk-container uk-container-center uk-container-large">
+          <div class="skillsheet">
+            <table>
+              <tr><th>言語・フレームワーク・ツール</th><th>実装した機能・使用した機能</th></tr>
+              <tr><td>Oracle</td><td>PL/SQLを使った大量データの処理、DDL/DML/DML、SQL*Loader</td></tr>
+              <tr><td>ASP.NET</td><td>サーバサイド言語にVB.net、DBにOracle、JavaScriptによる非同期処理</td></tr>
+              <tr><td>VBA</td><td>業務効率化ツールの開発</td></tr>
+              <tr><td>Ruby on Rails</td><td>S3を使った画像投稿サービス(インフラはheroku)。現在習得中</td></tr>
+              <tr><td>WordPress</td><td>個人ブログで少しカスタマイズした程度</td></tr>
+              <tr><td>TortoiseSVN</td><td>コマンドラインツールを使った環境構築</td></tr>
+              <tr><td>Git</td><td>習得中</td></tr>
+            </table>
+          </div>
         </div>
       </section>
 
       <section class="section" id="Works">
         <h1>Works</h1>
-        <div class="uk-container uk-container-center">
+        <div class="uk-container uk-container-center uk-container-large">
           <div class="uk-grid">
-            <div class="uk-width-1-3">
+            <div class="uk-width-1-1 uk-width-1-3@s space">
               <div class="card">
                 <a class="url-link" href="https://paya02.com/" rel="noopener" target="_blank"><img class="card-image" src="assets/images/blog.png" alt=""></a>
                 <div class="card-caption">
@@ -93,18 +106,18 @@
                 </div>
               </div>
             </div>
-            <div class="uk-width-1-3">
+            <div class="uk-width-1-1 uk-width-1-3@s space">
               <div class="card">
                 <a class="url-link" href="https://paya02.github.io/" rel="noopener" target="_blank"><img class="card-image" src="assets/images/glasses.png" alt=""></a>
                 <div class="card-caption">
                   <p class="card-caption-title">ポートフォリオサイト</p>
                   <p class="card-caption-info">このサイトです。</p>
-                  <p class="card-caption-info">HTML/CSS/UIkit</p>
+                  <p class="card-caption-info">HTML/CSS/UIkit/Github Pages</p>
                   <p class="card-caption-url"><a class="url-link" href="https://github.com/paya02/paya02.github.io" rel="noopener" target="_blank">git hub</a></p>
                 </div>
               </div>
             </div>
-            <div class="uk-width-1-3">
+            <div class="uk-width-1-1 uk-width-1-3@s space">
               <div class="card">
                 <a class="url-link" href="https://paya02.com/it/google-apps/twitterid-lottery" rel="noopener" target="_blank"><img class="card-image" src="assets/images/sousa.gif" alt=""></a>
                 <div class="card-caption">
@@ -122,7 +135,7 @@
       <section class="section" id="Contact">
         <h1>Contact</h1>
         <h4>ご依頼・ご相談等ありましたらTwitterのDMにご連絡ください。</h4>
-        <div class="uk-container uk-container-center">
+        <div class="uk-container uk-container-center uk-container-large">
           <div class="uk-grid">
             <div class="uk-width-1-3">
             </div>

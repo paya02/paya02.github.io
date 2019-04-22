@@ -8,27 +8,8 @@
 
 /* universal */
 body {
-/*  height: 1000px;*/
   background-color: #F5F2EB;
 }
-
-/*
-section {
-  overflow: auto;
-}
-
-textarea {
-  resize: vertical;
-}
-
-.center {
-  text-align: center;
-}
-
-.center h1 {
-  margin-bottom: 10px;
-}
-*/
 
 /* typography */
 h1, h2, h3, h4, h5, h6 {
@@ -41,16 +22,24 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  color: #666;
+  font-size: 2em;
+  text-align: center;
+}
+
 h4 {
   color: #666;
   font-size: 1.3em;
   text-align: center;
 }
 
+.white {
+  color: #FFFFFF;
+}
 
 p {
   font-size: 1.3em;
-  line-height: 1.7em;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -82,21 +71,47 @@ table tr:nth-child(even){
 
 /* header */
 header {
-  height: 400px;
-  background-image: url('../images/glasses.png');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 25%;
+}
+
+#header #top {
+  width: 100%;
+  height: 60vh;
+  margin: 0 auto;
+  background-color: #A6D8DF;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#center{
+/*
+  background-image: url(../images/mac.jpg);
+  background-size: cover;
+  background-position: center;
+*/
+  position: relative;
+  top: 23%;
 }
 
 .logo-title {
-  height: 400px;
-  width: 50%;
+  height: 20vh;
+  line-height: 1.3em;
+  font-size: 5vw;
+}
+
+.child {
   display: table-cell;
   vertical-align: middle;
-  font-size: 6.5vw;
+  width: inherit;
+  height: inherit;
   text-align: center;
-  line-height: 0.8em;
+  border: 1px dashed red;
+}
+
+.header-pic {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 20vh;
+  text-align: center;  
 }
 
 .liner-blue {
@@ -104,20 +119,16 @@ header {
 }
 .liner-red {
   background: linear-gradient(transparent 90%, #EE5840 90%);  
-/*  padding-top: 50px;*/
-/*  padding-bottom: -200px;*/
 }
 
 .hr01 {
 	border-width: 5px 0 0 0;
-/*	border-style: dashed;*/
 	border-color: #A6D8DF;
   margin: 10px;
 }
 
 .hr02 {
 	border-width: 2px 0 0 0;
-/*	border-style: dashed;*/
 	border-color: #EE5840;
   margin: 10px;
 }
@@ -128,16 +139,10 @@ header {
 	border-color: #A6D8DF;
 }
 
-
 /* main */
 .section{
   width: 100vw;
-  height: 80vh;
-  padding-top: 30px;
-}
-
-.text{
-  width: 80%;
+  padding-top: 50px;
 }
 
 .inner {
@@ -148,13 +153,17 @@ header {
 }
 
 #Profile .inner{
-  padding-left: 80px;
+/*  padding-left: 80px;*/
 }
 
 .img-icon {
   padding: 20px;
   border-radius: 50%;
   width: 80%;
+}
+
+.space{
+  padding-bottom: 30px;
 }
 
 .card {
