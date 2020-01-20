@@ -15,116 +15,108 @@
   <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
   <link href="assets/stylesheets/uikit.min.css" media="all" rel="stylesheet" type="text/css" />
   <link href="assets/stylesheets/default.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="assets/images/favicon.ico"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
 </head>
 
 <body>
   <div id="wrapper">
+    <div id="header-bar">
+    </div>
     <header id="header">
       <section class="section" id="top">
         <div id="center">
           <h1 class="white">Paya02's Portfolio</h1>
           <h3 class="white">Web Engineer</h3>
-        </div>
+          <div id="menu-link">
+            <a href="#Profile">PROFILE</a>
+            <a href="#Works">WORKS</a>
+            <a href="#Contact">CONTACT</a>
+          </div>
+          </div>
       </section>
-<!--
-      <div class="uk-container uk-container-center">
-        <div class="uk-grid">
-          <div class="uk-width-1-3">
-            <div class="logo-title"><p class="child">Paya02</p></div>
-          </div>
-          <div class="uk-width-1-3">
-            <div class="header-pic">
-              <img src="assets/images/glasses.png">
-            </div>
-          </div>
-          <div class="uk-width-1-3">
-            <div class="logo-title"><p class="child">Web<br>Engineer</p></div>
-          </div>
-        </div>
-      </div>
--->
     </header>
     
     <main id="contents">
+      
       <section class="section" id="Profile">
-        <h1>Profile</h1>
-        <div class="uk-container uk-container-center uk-container-large">
+        <h1>PROFILE</h1>
+        <div class="uk-container uk-container-center uk-container-small">
           <div class="uk-grid">
-            <div class="uk-width-1-1 uk-width-1-2@s">
+            <div class="uk-width-1-1 uk-width-1-2@m">
               <div class="inner">
                 <img src="assets/images/paya.jpg" alt="paya02-icon" class="img-icon">
               </div>
             </div>
-            <div class="uk-width-1-1 uk-width-1-2@s">
-              <div class="">
-                <p>こんにちは！当ポートフォリオサイトをご覧いただきありがとうございます。<br>
-                ここでは私が身につけたスキル・制作物・ブログを紹介しているので、少しでも興味を持っていただけたら嬉しいです。<br>
+            <div class="uk-width-1-1 uk-width-1-2@m">
+              <div class="profile-text">
+                <p>こんにちは！<br>
+                当ポートフォリオサイトをご覧いただきありがとうございます。<br>
+                フリーランスエンジニアの ぱやぱや と申します。<br>
                 <br>
-                名前：ぱやぱや<br>
-                出身：新潟<br>
-                略歴：新卒からSIer企業で業務系アプリのパッケージ開発・設計・保守を担当。もっとたくさんの技術に触れながら問題解決の方法を探ったり、アイディアを形にしたいと思うようになり、WEB系技術の習得開始。<br>
+                SIerで開発と運用保守を経験し、プライベートではWEB系技術やツールの使い方を独学しました。<br>
+                『いい感じになんとかする』を、報連相しながら進めていくスタイルが一番バリューを発揮できます。<br>
+                <br>
+                ITとアイディアを組み合わせて、問題解決の手段を発想するのが好きです。
+                作成したものは↓のWORKSで紹介しています。
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      
-      <section class="section" id="Skill">
-        <h1>Skill</h1>
-        <div class="uk-container uk-container-center uk-container-large">
-          <div class="skillsheet">
-            <table>
-              <tr><th>言語・フレームワーク・ツール</th><th>実装した機能・使用した機能</th></tr>
-              <tr><td>Oracle</td><td>PL/SQLを使った大量データの処理、DDL/DML/DML、SQL*Loader</td></tr>
-              <tr><td>ASP.NET</td><td>サーバサイド言語にVB.net、DBにOracle、JavaScriptによる非同期処理</td></tr>
-              <tr><td>VBA</td><td>業務効率化ツールの開発</td></tr>
-              <tr><td>Ruby on Rails</td><td>S3を使った画像投稿サービス(インフラはheroku)。現在習得中</td></tr>
-              <tr><td>WordPress</td><td>個人ブログで少しカスタマイズした程度</td></tr>
-              <tr><td>TortoiseSVN</td><td>コマンドラインツールを使った環境構築</td></tr>
-              <tr><td>Git</td><td>習得中</td></tr>
-            </table>
-          </div>
-        </div>
-      </section>
 
       <section class="section" id="Works">
-        <h1>Works</h1>
-        <div class="uk-container uk-container-center uk-container-large">
+        <h1>WORKS</h1>
+        <div class="uk-container uk-container-center uk-container-small">
           <div class="uk-grid">
-            <div class="uk-width-1-1 uk-width-1-3@s space">
-              <div class="card">
-                <a class="url-link" href="https://paya02.com/" rel="noopener" target="_blank"><img class="card-image" src="assets/images/blog.png" alt=""></a>
-                <div class="card-caption">
-                  <p class="card-caption-title">よろっと行こか</p>
-                  <p class="card-caption-info">3年続けている個人ブログです。</p>
-                  <p class="card-caption-info">WordPress</p>
-                  <p class="card-caption-url">&nbsp;</p>
+
+            <div class="uk-width-1-1 uk-width-1-2@m space">
+              <div class="uk-card uk-card-default">
+                <div class="uk-card-media-top">
+                  <a href="https://twi-kanji.herokuapp.com/" rel="noopener" target="_blank"><img class="card-image" src="assets/images/twi-kanji.png" alt=""></a>
+                </div>
+                <div class="uk-card-body">
+                  <span class="card-header">Twi-Kanji</span>
+                  <p class="card-main">Twitterアカウントを使ってスケジュール調整できるサービスです<br>使用技術：Rails/MySQL/Docker/heroku/Materialize</p>
                 </div>
               </div>
             </div>
-            <div class="uk-width-1-1 uk-width-1-3@s space">
-              <div class="card">
-                <a class="url-link" href="https://paya02.github.io/" rel="noopener" target="_blank"><img class="card-image" src="assets/images/glasses.png" alt=""></a>
-                <div class="card-caption">
-                  <p class="card-caption-title">ポートフォリオサイト</p>
-                  <p class="card-caption-info">このサイトです。</p>
-                  <p class="card-caption-info">HTML/CSS/UIkit/Github Pages</p>
-                  <p class="card-caption-url"><a class="url-link" href="https://github.com/paya02/paya02.github.io" rel="noopener" target="_blank">git hub</a></p>
+            <div class="uk-width-1-1 uk-width-1-2@m space">
+              <div class="uk-card uk-card-default">
+                <div class="uk-card-media-top">
+                  <a href="https://paya02.com/it/web-service/ar-flowerstand" rel="noopener" target="_blank"><img class="card-image" src="assets/images/arflastar.png" alt=""></a>
+                </div>
+                <div class="uk-card-body">
+                  <span class="card-header">ARフラスタ</span>
+                  <p class="card-main">ARを使ったフラスタ。ライブイベントで贈らせていただきました。3Dモデルも自作しています(<a class="" href="https://paya02.com/it/web-service/ar-flowerstand" rel="noopener" target="_blank">作り方の記事</a>)<br>使用技術：AR.js/A-Frame/Netlify</p>
                 </div>
               </div>
             </div>
-            <div class="uk-width-1-1 uk-width-1-3@s space">
-              <div class="card">
-                <a class="url-link" href="https://paya02.com/it/google-apps/twitterid-lottery" rel="noopener" target="_blank"><img class="card-image" src="assets/images/sousa.gif" alt=""></a>
-                <div class="card-caption">
-                  <p class="card-caption-title">Twitter抽選ツール</p>
-                  <p class="card-caption-info">GASを使った抽選ツールです</p>
-                  <p class="card-caption-info">Google Froms/Google Spreadsheet</p>
-                  <p class="card-caption-url"><a class="url-link" href="https://paya02.com/it/google-apps/twitterid-lottery" rel="noopener" target="_blank">作り方の記事</a></p>
+            <div class="uk-width-1-1 uk-width-1-2@m space">
+              <div class="uk-card uk-card-default">
+                <div class="uk-card-media-top">
+                  <a href="https://paya02.com/it/google-apps/twitterid-lottery" rel="noopener" target="_blank"><img class="card-image" src="assets/images/sousa.gif" alt=""></a>
+                </div>
+                <div class="uk-card-body">
+                  <span class="card-header">Twitter抽選ツール</span>
+                  <p class="card-main">GASを使った抽選ツールです(<a class="" href="https://paya02.com/it/google-apps/twitterid-lottery" rel="noopener" target="_blank">作り方の記事</a>)<br>
+                  Google Froms/Google Spreadsheet<br>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="uk-width-1-1 uk-width-1-2@m space">
+              <div class="uk-card uk-card-default">
+                <div class="uk-card-media-top">
+                  <a href="https://paya02.com/" rel="noopener" target="_blank"><img class="card-image" src="assets/images/blog.png" alt=""></a>
+                </div>
+                <div class="uk-card-body">
+                  <span class="card-header">よろっと行こかブログ</span>
+                  <p class="card-main">4年続けている個人ブログです<br>使用技術：WordPress</p>
                 </div>
               </div>
             </div>
@@ -133,8 +125,8 @@
       </section>
 
       <section class="section" id="Contact">
-        <h1>Contact</h1>
-        <h4>ご依頼・ご相談等ありましたらTwitterのDMにご連絡ください。</h4>
+        <h1>CONTACT</h1>
+        <h4>ご依頼・ご相談等ありましたらTwitter(<a href="https://twitter.com/paya2_5routai" rel="noopener" target="_blank">@paya2_5routai</a>)のDMにご連絡ください。</h4>
         <div class="uk-container uk-container-center uk-container-large">
           <div class="uk-grid">
             <div class="uk-width-1-3">
